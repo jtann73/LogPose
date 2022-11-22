@@ -5,11 +5,6 @@
     /* font-family: inter; */
 }
 
-.container,
-.container__header {
-    margin: 0 7rem;
-}
-
 ul {
     list-style: none;
 }
@@ -35,27 +30,31 @@ label {
     font-size: 1.5rem;
 }
 
-input {
-    height: 2rem;
+section {
+  margin: 0 9%;
+  max-width: 1270px;
 }
+input[type="email"]{ 
+    line-height: 2rem;
+margin-left: .5rem; }
+
 /* NAVIGATION BAR SECTION */
 
 .nav {
     margin-top: 0;
-    background-color: #EFF5F5;
     padding: 1rem 0;
 }
 
 .nav__div {
     display: flex;
     justify-content: space-between;
-    align-items: center;
     margin-top: 2rem;
+    width: 100%;
     
 }
 
 .links {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -67,10 +66,10 @@ input {
 }
 
 .sign-up {
-    background-color: #ff9900;
+    background-color: #ef9a53;
     color: white;
-    padding: 1rem 2rem;
-    border-radius: 1.2rem;
+    padding: .8rem 1rem;
+    border-radius: 1.8rem;
 }
 
 
@@ -78,52 +77,59 @@ input {
 /* HEADER */
 
 .header {
-    margin-top: 12rem;
+    margin-top: 5rem;
+    display: flex;
 }
 
 .container__header {
     display: flex;
     flex-direction: column;
-    align-items: center;
-}
-
-.header__intro {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.header--img {
-    width: 80%;
+    width: 50%;
 }
 
 .header--title {
     margin-top: 1rem;
-    font-size: 4rem;
+    font-size: 3rem;
+    color: #13183F;
+    text-align: left;
+    -webkit-line-clamp: 3;
 }
 
 .header--tag {
-    font-size: 1.7rem;
+    font-size: 1.2rem;
     opacity: .65;
-    text-align: center;
+    text-align: left;
     margin-top: 3rem;
     margin-bottom: 3rem;
 }
 
 .header--form {
+vertical-align: bottom;
+}
+
+.container--photo {
+    width: 50%;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    margin-left: 1.5rem;
+}
+
+.landing--photo {
+    width: 100%;
+    height: auto;
+    overflow: auto;
+    border-radius: 1rem;
 }
 
 .get__started {
     color: white;
-    background-color:#ff9900;
-    border-radius: 12px;
+    background-color:#ef9a53;
+    border-radius: 1.8rem;
     border-color: transparent;
     font-size: 1rem;
     font-weight: bold;
+    border-radius: 1.8rem;
+    margin-left: 1rem;
+    padding: 1rem 1rem;
     
 }
 
@@ -134,6 +140,11 @@ input {
 
 /* MAIN */
 
+
+.main {
+    margin-top: 5rem;
+    background-color: #EFF5F5;
+}
 .two__divs {
     display: flex;
     align-items: center;
