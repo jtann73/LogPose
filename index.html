@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
+    <script src="./app.js"></script>
     <script src="https://kit.fontawesome.com/c8e4d183c2.js"></script>
     <title>LogPose - Advance Your Career</title>
   </head>
@@ -30,28 +31,34 @@
               <li class="link">
                 <a href="./resources.html">Resources</a>
               </li>
-              <li class="link sign-up">
+              <li class="sign-up">
                 <a href="">Get Started</a>
               </li>
             </ul>
           </div>
+          <button class="hamburger is-active">
+            <div class="bar"></div>
+          </button>
         </div>
       </div>
+      <nav class="mobile-nav">
+        <a class="mobile-nav__links" href="">Get Started</a>
+        <a class="mobile-nav__links" href="./mission.html">Mission</a>
+        <a class="mobile-nav__links" href="./resources.html">Resources</a>
+      </nav>
     </section>
 
     <!-- HEADER -->
     <section class="header">
       <div class="container__header">
         <h1 class="header--title">
-          Guarantee happiness and control of your career with Logpose
+          Achieve career clarity and happiness, only with Logpose
         </h1>
-        <h3 class="header--tag">
-          Decide the career you want to have. And do it.
-        </h3>
+        <h3 class="header--tag">Decide the career you want. And do it.</h3>
         <form action="" class="header--form">
           <label for="Email">Email: </label>
-          <input type="email" {line-height: 28px }/>
-          <input class="get__started" type="submit" value="Get Started" />
+          <input type="email" placeholder="Your E-mail Address" />
+          <input class="submit" type="submit" value="Submit" />
         </form>
       </div>
       <div class="container--photo">
@@ -62,81 +69,86 @@
         />
       </div>
     </section>
-    <section class="main">
-      <div class="container">
-        <div class="two__divs">
-          <div class="div__img">
-            <img
-              class="roadImage"
-              src="./assets/pexels-eberhard-grossgasteiger-1612461.jpg"
-              alt=""
-            />
+
+    <!-- FEATURES -->
+    <div class="features__background">
+      <section class="features">
+        <div class="features--title">
+          <h1>Guide your career with confidence and clarity</h1>
+        </div>
+        <div class="features__grid-container">
+          <div class="features__grid-item">
+            <div class="grid-item__header">
+              <div class="features__item-number">1</div>
+              <div class="features__item-header">Define...</div>
+            </div>
+            <div class="features__item-para">
+              ...what success means to you. Iterate as you evolve.
+            </div>
           </div>
-          <div class="div__text">
-            <h2 class="main--tagOne">
-              Even the most "successful" careers are paved with bumps along the
-              way. Define what success looks like to you.
-            </h2>
-            <h2 class="main--tagTwo">
-              Not sure what you want your path to look like?
-            </h2>
-            <h2 class="main--tagThree">
-              Start exploring possibilities
-              <span class="main__link">here</span>.
-            </h2>
+          <div class="features__grid-item">
+            <div class="grid-item__header">
+              <div class="features__item-number">2</div>
+              <div class="features__item-header">Learn...</div>
+            </div>
+            <div class="features__item-para">
+              ...from industry professionals before committing time and effort
+            </div>
+          </div>
+          <div class="features__grid-item">
+            <div class="grid-item__header">
+              <div class="features__item-number">3</div>
+              <div class="features__item-header">Visualize...</div>
+            </div>
+            <div class="features__item-para">
+              ...and explore various paths based on interests and skills
+            </div>
+          </div>
+          <div class="features__grid-item">
+            <div class="grid-item__header">
+              <div class="features__item-number">4</div>
+              <div class="features__item-header">Optimize...</div>
+            </div>
+            <div class="features__item-para">
+              ...for happiness and account for all aspects of life (e.g.,
+              family, friends, hobbies, etc.)
+            </div>
+          </div>
+          <div class="features__grid-item">
+            <div class="grid-item__header">
+              <div class="features__item-number">5</div>
+              <div class="features__item-header">Progress...</div>
+            </div>
+            <div class="features__item-para">
+              ...towards goals with personalized to-do lists
+            </div>
+          </div>
+          <div class="features__grid-item">
+            <div class="grid-item__header">
+              <div class="features__item-number">6</div>
+              <div class="features__item-header">Track...</div>
+            </div>
+            <div class="features__item-para">
+              ...accomplishments in one place to enhance resumes and salary
+              negotiations
+            </div>
           </div>
         </div>
-      </div>
-    </section>
-    <section class="features">
-      <div class="container">
-        <div class="features__sub-title">FEATURES</div>
-        <div class="twoDivs__features">
-          <div class="features__text">
-            <ul class="features__list">
-              <li class="feature__specific">
-                <i class="fa-sharp fas fa-compass"></i>
-                <span class="firstWord--feature">Learn</span> about your areas
-                of interest from professionals at all levels
-              </li>
-              <li class="feature__specific">
-                <i class="fa-sharp fas fa-compass"></i>
-                <span class="firstWord--feature">Explore</span> various paths
-                dependent on current and future skillsets
-              </li>
-              <li class="feature__specific">
-                <i class="fa-sharp fas fa-compass"></i>
-                <span class="firstWord--feature">Build</span> the career for
-                you, accounting for all aspects of life (e.g., family, friends,
-                hobbies, etc.)
-              </li>
-              <li class="feature__specific">
-                <i class="fa-sharp fas fa-compass"></i>
-                <span class="firstWord--feature">Execute</span> your plan with
-                weekly actions & personalized course/ job recommendations
-              </li>
-              <li class="feature__specific">
-                <i class="fa-sharp fas fa-compass"></i>
-                <span class="firstWord--feature">Track</span> career
-                accomplishments in one place to simplify resumes and salary
-                negotiations
-              </li>
-            </ul>
-          </div>
-          <div class="features__callToAction">
-            <p>Register Now</p>
-          </div>
-        </div>
-      </div>
-    </section>
+        <button class="get__started">Get Started Now</button>
+      </section>
+    </div>
   </body>
   <footer>
     <div class="footer__logo">
-      <a href="#nav">
-        <img src="./assets/LogPose-Logo Text.png" alt="" />
+      <a href="./index.html">
+        <img class="footer__img" src="./assets/LogPose-text.svg" alt="" />
       </a>
-      <span> Copyright © 2022 LogPose, Inc. </span>
+    </div>
+    <div class="links">
       <ul class="footer__links">
+        <li class="footer__link">
+          <i class="fas fa-envelope"></i>
+        </li>
         <li class="footer__link">
           <a
             href="https://www.linkedin.com/company/logpose-inc"
@@ -149,9 +161,6 @@
           <a href="https://www.instagram.com/logpose.career/" target="_blank">
             <i class="fab fa-instagram"></i>
           </a>
-        </li>
-        <li class="footer__link">
-          <i class="fab fa-twitter"></i>
         </li>
         <li class="footer__link">
           <a href="https://discord.gg/CBRwBcRM" target="_blank">
